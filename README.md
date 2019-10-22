@@ -1,5 +1,5 @@
 # store-sales-forecasting
-Building time series (SARIMA) models using auto_arima(_) to forcast store sales
+Building time series (SARIMA) models using auto_arima(_) to forecast store sales
 
 ### Dataset
   - The dataset is taken from kaggle competition on "Walmart Recruiting - Store Sales Forecasting" in 2014.
