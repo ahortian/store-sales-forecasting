@@ -11,7 +11,8 @@ Building time series (SARIMA) models using `auto_arima()` to forecast store sale
   - when there is no train data but the prediction is requested, just predicts 0
   - missing values are filled with `interpolate()`
   - when `auto_arima()` fails, predicts 0
-  - used only sales data (time series), additional data like isHoliday, store location, etc. is available but NOT USED in this iteration
+  - used only sales data (time series)
+    - additional data like `isHoliday`, store location, etc. is available but NOT USED in this iteration
 
 ### Result
   - the evaluation metric score is the weighted mean absolute error (WMAE).
