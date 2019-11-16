@@ -28,4 +28,5 @@ Building time series (SARIMA) models using `auto_arima()` to forecast store sale
     - to gather all results and does a final touch to gnerate the submission file
 
 ### Outlook
+  - there are cases when the current treatment is just predicting 0, this can be improved by assigning more reasonable values, e.g. look at the same department in the different stores and find the average value.
   - the model can be improved by incorporating additional information provided
