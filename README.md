@@ -1,16 +1,16 @@
 # store-sales-forecasting
-Building time series (SARIMA) models using auto_arima(_) to forecast store sales
+Building time series (SARIMA) models using `auto_arima()` to forecast store sales
 
 ### Dataset
   - The dataset is taken from kaggle competition on "Walmart Recruiting - Store Sales Forecasting" in 2014.
   - https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/overview
 
 ### Model (first iteration)
-  - built SARIMA models using auto_arima(_)
+  - built SARIMA models using `auto_arima()`
   - one model for each store-department combination 
   - when there is no train data but the prediction is requested, just predicts 0
-  - missing values are filled with interpolate(_)
-  - when auto_arima(_) fails, predicts 0
+  - missing values are filled with `interpolate()`
+  - when `auto_arima()` fails, predicts 0
   - used only sales data (time series), additional data like isHoliday, store location, etc. is available but NOT USED in this iteration
 
 ### Result
