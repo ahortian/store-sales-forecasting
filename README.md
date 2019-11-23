@@ -25,7 +25,7 @@ Building time series (SARIMA) models using `auto_arima()` to forecast store sale
 
 ### Notebook 
   - concat_results.ipynb
-    - to gather all results and does a final touch to gnerate the submission file
+    - to gather all results and does a final touch to generate the submission file
 
 ### Outlook
   - there are cases when the current treatment is just predicting 0, this can be improved by assigning more reasonable values, e.g. look at the same department in the different stores and find the average value.
